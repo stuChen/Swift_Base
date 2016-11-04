@@ -80,7 +80,7 @@ extension UIView {
             self.frame = frame
         }
     }
-    
+
     public var origin : CGPoint {
         get {
             return self.frame.origin

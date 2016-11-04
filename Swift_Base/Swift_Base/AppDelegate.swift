@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window!.backgroundColor = UIColor.white
         
-        let vc = HomeViewController()
+        let vc = BaseTabbarViewController()
         window!.rootViewController = vc
         window!.makeKeyAndVisible()
         

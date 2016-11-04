@@ -6,5 +6,7 @@ use_frameworks!
 target 'Swift_Base' do
 
 pod 'Alamofire', '~> 4.0'
-
+pod 'SwiftyJSON'
+pod 'Kingfisher'
+pod 'Presentr'
 end
