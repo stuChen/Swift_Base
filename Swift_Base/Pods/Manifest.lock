@@ -2,20 +2,33 @@ PODS:
   - Alamofire (4.0.1)
   - Kingfisher (3.1.4)
   - Presentr (1.0.2)
+  - Spring (1.0.3)
   - SwiftyJSON (3.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - Kingfisher
   - Presentr
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
   - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   Kingfisher: 6c67e3e57f2d81a9cfdfa25052cd86f33ceac9bb
   Presentr: 10a415de79efeac4dc82d006580ddd90fcaa157d
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
 
-PODFILE CHECKSUM: 69cc0650e4a74c75597f8cb195cbf4c0e06e1c6f
+PODFILE CHECKSUM: 86afc0b97e529843dc6ae46618f4b22486ddd522
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0.beta.1
